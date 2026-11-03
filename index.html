@@ -1,0 +1,225 @@
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#160f24"><title>FORMA 8.4 — Trening dla niej</title><style>
+:root{--bg:#100b1b;--card:#21152f;--card2:#2e1d40;--text:#fff4ff;--muted:#cbbbd8;--mint:#ffab56;--line:#4f365e;--orange:#ffd09a}*{box-sizing:border-box}body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--text);background:radial-gradient(ellipse at 90% 0,#48215f 0,transparent 48%),radial-gradient(ellipse at 0% 75%,#392039 0,transparent 42%),var(--bg);margin:0;min-height:100vh}.wrap{max-width:780px;margin:auto;padding:28px 18px 70px}header{display:flex;justify-content:space-between;align-items:center;gap:12px}.brand{font-weight:900;letter-spacing:.23em;font-size:14px;color:var(--mint)}.tag{font-size:12px;border:1px solid var(--line);padding:9px 12px;border-radius:90px;color:var(--muted)}h1{font-size:clamp(36px,7.5vw,60px);letter-spacing:-.055em;line-height:1.05;margin:40px 0 12px}p{color:var(--muted);line-height:1.6}.lead{max-width:570px}.alert{background:#3a2430;border:1px solid #a65b37;border-radius:17px;padding:17px 18px;margin:23px 0 25px;color:#ffe2c8;line-height:1.55;font-size:14px}.alert b{color:#fff}.controls{display:flex;flex-wrap:wrap;gap:10px;margin:25px 0}.btn{border-radius:13px;border:1px solid var(--line);padding:13px 17px;font-size:14px;font-weight:750;cursor:pointer;background:var(--card2);color:var(--text)}.btn.primary{background:var(--mint);color:#221024;border:0}.btn:hover{filter:brightness(1.1)}.btn:focus-visible,.pill:focus-visible,summary:focus-visible{outline:3px solid #fff;outline-offset:3px}.tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:24px 0}.tab{background:var(--card);border:1px solid var(--line);padding:18px 12px;border-radius:17px;text-align:left;color:var(--text);cursor:pointer}.tab strong{font-size:17px;display:block;margin-bottom:6px}.tab span{font-size:12px;color:var(--muted)}.tab.active{background:#482856;border:2px solid var(--mint);padding:17px 11px}.head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;margin:25px 0 18px}.head h2{margin:0;font-size:28px;letter-spacing:-.03em}.small{color:var(--muted);font-size:13px}.counter{color:var(--mint);font-size:13px;font-weight:700;white-space:nowrap}.exercise{border:1px solid var(--line);background:var(--card);padding:18px;border-radius:18px;margin-bottom:12px}.ex-top{display:flex;gap:12px;align-items:flex-start}.number{display:grid;place-items:center;border-radius:12px;background:#4e2b60;color:var(--mint);min-width:35px;height:35px;font-weight:800}.youtube-link{display:inline-flex;align-items:center;gap:7px;margin-top:12px;padding:9px 12px;border-radius:10px;background:#4c295d;color:#ffe4c7;text-decoration:none;font-weight:750;font-size:13px;border:1px solid #9253ac}.youtube-link:hover{background:#654077}.youtube-link:focus-visible{outline:3px solid #fff;outline-offset:2px}.ex-title{font-size:17px;font-weight:760;margin:2px 0 6px}.meta{color:var(--mint);font-size:13px;font-weight:700}.danger{color:#ffd09a;font-size:12px;font-weight:750;margin-top:8px}.exercise details{margin:14px 0 0;border-top:1px solid var(--line);padding-top:12px}summary{cursor:pointer;color:#eeddf5;font-size:13px;font-weight:650}details p{font-size:14px;margin:11px 0 0}details p b{color:var(--text)}.sets{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.pill{display:flex;align-items:center;gap:8px;background:#312041;border:1px solid #634675;border-radius:10px;padding:8px 12px;cursor:pointer;color:#eadcf0;font-size:13px}.pill input{accent-color:#ffab56;width:16px;height:16px;cursor:pointer}.done{border-color:#ffbc79;background:#503053}.footerbox{margin-top:22px;padding:17px;border:1px solid var(--line);border-radius:17px;background:#231731;font-size:13px;line-height:1.6;color:var(--muted)}footer{color:var(--muted);text-align:center;padding-top:35px;font-size:12px}.toggle{display:flex;align-items:start;gap:11px;line-height:1.5;color:var(--muted);font-size:14px;padding:14px;background:#2a1c38;border-radius:13px}.toggle input{width:19px;height:19px;accent-color:var(--mint);margin-top:2px}.disabled{opacity:.45}.disabled .sets{display:none}.disabled details{display:none}.subtext{margin-top:8px;font-size:13px;color:var(--orange)}.log{margin-top:14px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.log label{font-size:12px;color:var(--muted)}.log input{display:block;width:100%;margin-top:5px;background:#180f27;color:var(--text);border:1px solid var(--line);border-radius:9px;padding:10px;font-size:15px}.log-note{color:var(--muted);font-size:12px;margin-top:9px}.core{font-size:11px;color:var(--mint);margin:0 0 5px}.history{background:#2a1a3a;border:1px solid var(--line);border-radius:14px;padding:15px;margin:18px 0}.history h3{margin:0 0 8px}.history p{margin:4px 0;font-size:13px}@media(max-width:500px){.wrap{padding:20px 14px 55px}.tabs{gap:7px}.tab{padding:14px 8px}.tab.active{padding:13px 7px}.tab strong{font-size:15px}.tab span{font-size:11px}.head h2{font-size:24px}}
+.btn.primary{background:linear-gradient(120deg,#ff9a3d,#ffc17d);color:#241126;box-shadow:0 5px 22px #ff8c2f22}.tab.active{background:linear-gradient(145deg,#4b2a62,#382045);box-shadow:inset 0 1px 0 #b482c033}.brand,.counter,.core{color:#ffac68}.exercise{box-shadow:0 6px 24px #09031328}.exercise:hover{border-color:#704789}.number{color:#ffb46d}.youtube-link{background:#412349;border-color:#86519c;color:#ffd4ab}.youtube-link:hover{background:#583161}::selection{background:#7e4397;color:#fff}
+.video-preview{margin:14px 0 4px;border:1px solid #65417b;border-radius:14px;overflow:hidden;background:#120c1b;position:relative;aspect-ratio:16/9;max-width:560px}
+.video-preview a{position:relative;display:block;width:100%;height:100%;padding:0;border:0;background:#251833;color:white;cursor:pointer}
+.video-preview img{width:100%;height:100%;object-fit:cover;display:block;opacity:.82}
+.play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#ffab56;color:#21152f;padding:13px 20px;border-radius:35px;font-weight:900;box-shadow:0 4px 30px #0008}
+
+.vnote{font-size:12px;color:var(--muted);margin:6px 0 10px}
+.atlas-link{color:#ffbb78;font-size:13px;text-decoration:underline;text-underline-offset:3px;display:inline-block;margin:8px 0}
+.preview-mp4{max-width:580px;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;background:#160e23;margin-top:14px}.preview-mp4 video{width:100%;height:100%;object-fit:contain;display:block}.video-state{position:absolute;bottom:10px;left:10px;right:10px;border-radius:8px;background:#150b21d9;padding:9px;font-size:12px;color:#f2d9ff;pointer-events:none}.video-state.not-found{position:relative;background:transparent;color:#ffbc80;padding:22px}.video-unavailable{padding:18px;color:#e6c6eb;font-size:13px;text-align:center}
+.preview-mp4[hidden]{display:none!important}.video-preview{margin:12px 0;min-height:0}.preview-mp4{aspect-ratio:auto}.preview-mp4 video{max-height:290px;aspect-ratio:16/9}.alert{font-size:13px;padding:12px 14px}.lead{font-size:14px}.footerbox{display:none}
+.like{display:inline-block;margin:8px 0 0;background:transparent;color:#ffd9f0;border:1px solid #77568b;border-radius:12px;padding:8px 13px;cursor:pointer}.like.selected{background:#ee8c40;color:#241326;border-color:#ee8c40}.video-edit input{width:100%;padding:11px;border-radius:8px;background:#190f27;color:white;border:1px solid #76518b;margin:8px 0}.video-edit .btn{margin-bottom:8px}.btn.hard{border-color:#ff8e48;color:#ffbc83;background:#3c2247}.btn.hard.primary{color:#251329;background:linear-gradient(120deg,#ff8734,#ffc17d)}.hard-label{color:#ffab56;font-weight:800;font-size:12px;letter-spacing:.07em} .video-missing{padding:12px 14px;margin:12px 0;border:1px dashed #624379;border-radius:12px;color:#d9b4dc;font-size:12px}.preview-mp4{aspect-ratio:16/9}.preview-mp4 video{min-height:180px}
+
+</style></head><body><main class="wrap"><header><div class="brand">FORMA</div><div class="tag">18 TRENINGÓW · ♥ ULUBIONE</div></header><div class="alert"><b>Uwaga na stopę:</b> dopóki boli przy chodzeniu, unikaj obciążających ją ćwiczeń i skonsultuj uraz.</div><label class="toggle"><input id="clearance" type="checkbox"><span>Po ocenie urazu mogę bez bólu obciążać stopę — pokaż plan docelowy.</span></label><p class="small">HARD = większy wysiłek, nie trudniejsza technika. Zostaw 2–3 powtórzenia w zapasie.</p><div class="controls"><button id="random" class="btn primary">✦ Losuj wariant w tym dniu</button></div><div class="tabs" id="tabs"></div><div class="controls" id="variants" aria-label="Wybór wariantu"></div><div class="head"><div><h2 id="name"></h2><div class="small" id="subtitle"></div></div></div><div id="exercise-list"></div><div class="footerbox" id="tip"></div></main><script>
+const E=(name,sets,reps,rest,how,avoid,blocked=false,alternative='')=>({name,sets,reps,rest,how,avoid,blocked,alternative});
+const basePlans=[{name:'Dzień 1',sub:'SIŁOWNIA · nogi + pośladki + brzuch · 50–65 min',tip:'Zacznij od 5 minut łagodnego ruchu, który nie nasila bólu. Po dopuszczeniu stopy: orbitrek 8–15 min na końcu, lekki opór. Nie trenuj przez ból. Ćwicz 2 serie na początku, docelowo zgodnie z planem.',ex:[
+E('Prostowanie nóg siedząc',3,'10–12','75 s','Dostosuj oparcie i oś maszyny do kolana. Wyprostuj nogi bez szarpania, powoli wróć.','Przerwij przy bólu w stopie od poduszki lub przy ustawianiu nogi.'),
+E('Uginanie nóg siedząc',3,'10–12','75 s','Ustabilizuj biodra, ugnij nogi płynnie w kolanach i wolno oddawaj ciężar.','Nie wykonuj, jeśli wałek uciska bolesne miejsce stopy.'),
+E('Hip thrust na maszynie',3,'8–12','90 s','Plecy stabilnie oparte, wypchnij biodra w górę, zakończ ruchem pośladków, bez przeprostu lędźwi.','Duży nacisk stóp — wyłącznie po dopuszczeniu do obciążenia.',true,'Na razie pomiń; nie zastępuj ruchem powodującym nacisk na stopę.'),
+E('Wiosłowanie z podparciem klatki',2,'10–12','75 s','Oprzyj klatkę o poduszkę. Prowadź łokcie w tył, barki z dala od uszu, powoli oddaj ciężar.','Nie zaciskaj szyi i szczęki.'),
+E('Dead bug',3,'8 na stronę','45 s','Leżąc na plecach, powoli prostuj przeciwną rękę i nogę; utrzymuj wygodną pozycję miednicy i oddychaj.','Zmniejsz zakres, jeśli czujesz plecy.'),
+E('Reverse crunch',2,'10–12','60 s','Leżąc, z ugiętymi kolanami delikatnie unieś miednicę dzięki brzuchowi, nie zamachowi nóg.','Pomiń, jeśli powoduje ból pleców.')
+]},{name:'Dzień 2',sub:'SIŁOWNIA · uda + biodra + talia · 50–65 min',tip:'Po ocenie stopy można dodać orbitrek 8–15 min bez bólu. Między dniami siłowymi zachowaj co najmniej 48 godzin przerwy. Talia: ćwiczenia ją wzmacniają, ale nie spalają tłuszczu miejscowo.',ex:[
+E('Suwnica na nogi',3,'8–12','120 s','Plecy i miednica przylegają do oparcia. Ugnij kolana kontrolowanie, następnie wypchnij platformę bez blokowania kolan.','Wymaga dużego nacisku stóp — zacznij dopiero po dopuszczeniu.',true,'Teraz: prostowanie nóg siedząc, tylko bez bólu.'),
+E('Odwodzenie nóg siedząc',3,'12–15','60 s','Usiądź stabilnie, rozchylaj kolana bez kołysania tułowiem, wolno wracaj.','Nie dociskaj chorej stopy do podparcia.'),
+E('Glute bridge',3,'10–12','75 s','Leżąc z kolanami ugiętymi unieś biodra przez napięcie pośladków, bez wyginania lędźwi.','Obciąża stopy — dopiero po dopuszczeniu.',true,'Na razie pomiń.'),
+E('Ściąganie drążka neutralnie',2,'10–12','75 s','Ściągaj uchwyty ku górnej części klatki, prowadząc łokcie w dół; nie odchylaj gwałtownie pleców.','Nie napinaj szyi.'),
+E('Deska boczna na kolanach',3,'20–30 s / bok','45 s','Oprzyj przedramię i ugięte kolana, unieś biodra i oddychaj normalnie.','Zatrzymaj, jeśli bolą barki lub plecy.'),
+E('Open book — rotacje piersiowe',2,'6–8 / bok','30 s','Leżąc na boku z kolanami ugiętymi, powoli otwórz górną rękę w tył, podążaj wzrokiem, bez forsowania.','Ruch ma być łagodny i bezbolesny.')
+]},{name:'Dom!',sub:'DOM · brzuch + pośladki + rozluźnienie · 25–35 min',tip:'W domu nie potrzebujesz sprzętu. To trening dodatkowy, a nie obowiązkowy trzeci intensywny dzień. Zakończ 2–3 minutami spokojnego oddychania.',ex:[
+E('Dead bug',3,'8 / stronę','40 s','Leżąc na plecach z kolanami nad biodrami, opuszczaj przeciwną rękę i nogę powoli, bez utraty kontroli tułowia.','Bez bólu pleców.'),
+E('Clamshell — muszla',3,'12–15 / bok','45 s','Leżąc na boku z ugiętymi nogami i piętami razem, unieś górne kolano bez obracania miednicy. Podgląd pokazuje pokrewne odwodzenie nogi bokiem, nie identyczną muszlę.','Jeśli zetknięcie stóp boli, rozdziel je miękkim ręcznikiem lub pomiń.'),
+E('Unoszenie nogi bokiem leżąc',2,'12 / bok','45 s','Leżąc na boku unieś wyprostowaną górną nogę niedużym ruchem bez skręcania tułowia.','Bez dolegliwości stopy lub biodra.'),
+E('Deska boczna na kolanach',2,'20–30 s / bok','45 s','Przedramię pod barkiem, biodra w górę, tułów w jednej linii.','Nie zaciskaj szyi.'),
+E('Open book',2,'6–8 / bok','30 s','Powolna rotacja górnej części tułowia w leżeniu na boku, z naturalnym oddechem.','Bez forsowania zakresu.'),
+E('Spokojny oddech',1,'3 minuty','—','Wygodnie usiądź lub połóż się. Oddychaj spokojnie, z nieco dłuższym wydechem, bez wstrzymywania i bez wysiłku.','Przerwij, jeśli pojawia się zawroty głowy.')
+]}];
+
+// 3 warianty dla każdej lokalizacji; wariant A wykorzystuje bazowy zestaw.
+// Każdy dzień ma niezmienny rdzeń ćwiczeń. Losowane są tylko dodatki.
+const catalog = new Map();
+for (const p of basePlans) for (const e of p.ex) catalog.set(e.name,e);
+const additions=[
+ E('Pallof press na wyciągu',2,'10 / stronę','60 s','Stań stabilnie i wypchnij uchwyt przed siebie, nie obracaj tułowia.','Dopiero po ocenie stopy; wymaga stania.',true,'Wybierz dead bug.'),
+ E('Goblet squat do ławki',3,'8–10','120 s','Usiądź wolno do ławki i wstań z równomiernym oparciem stóp.','Dopiero po ocenie stopy.',true,'Pomiń do czasu dopuszczenia.'),
+ E('Bird dog',2,'8 / stronę','45 s','W klęku podpartym wyciągnij przeciwną rękę i nogę, bez odchylania miednicy.','Nie opieraj bolesnych palców o podłoże.'),
+ E('Spokojny oddech',1,'3 min','—','Spokojny wdech i nieco dłuższy wydech, bez forsowania.','Przerwij przy zawrotach głowy.'),
+ E('Clamshell — muszla',2,'12–15 / bok','45 s','Leżąc bokiem unieś kolano bez skręcania bioder. Film pokazuje podobne odwodzenie wyprostowanej nogi.','Nie uciskaj bolesnej stopy.'),
+ E('Unoszenie nogi bokiem leżąc',2,'12 / bok','45 s','Unieś górną nogę przy nieruchomej miednicy.','Tylko bez bólu.'),
+ E('Deska boczna na kolanach',2,'20–30 s / bok','45 s','Oprzyj przedramię i kolana, unieś biodra.','Przerwij, gdy boli bark lub plecy.'),
+ E('Open book',2,'6–8 / bok','30 s','Leżąc bokiem obracaj powoli górną część pleców.','Nie forsuj zakresu.'),
+ E('Ściąganie drążka neutralnie',2,'10–12','75 s','Łokcie prowadź w dół, barki z dala od uszu.','Bez napinania szyi.'),
+ E('Odwodzenie nóg siedząc',3,'12–15','60 s','Rozchylaj kolana bez kołysania tułowiem.','Nie naciskaj bolesną stopą na podpórkę.'),
+ E('Suwnica na nogi',3,'8–12','120 s','Wypychaj platformę z podpartymi plecami, bez odrywania miednicy.','Dopiero po ocenie stopy.',true,'Pomiń do czasu dopuszczenia.'),
+ E('Hip thrust na maszynie',3,'8–12','90 s','Unieś biodra napinając pośladki bez przeprostu pleców.','Dopiero po ocenie stopy.',true,'Pomiń do czasu dopuszczenia.')
+];
+for (const e of additions) if (!catalog.has(e.name)) catalog.set(e.name,e);
+const hardAdditions=[
+ E('Martwy ciąg rumuński z hantlami',3,'8–10','120 s','Lekko ugnij kolana, cofnij biodra, trzymaj hantle blisko nóg i wstań pracą bioder.','Obciąża stopy i wymaga kontroli tułowia; tylko po ocenie urazu.',true,''),
+ E('Przysiad bułgarski',3,'8 na nogę','120 s','Tylna stopa na niskim podparciu; opuszczaj biodra pionowo, utrzymuj kontrolę kolana.','Duże obciążenie stopy i równowagi; tylko po ocenie urazu.',true,''),
+ E('Wykroki w tył',3,'10 na nogę','90 s','Zrób kontrolowany krok w tył, obniż biodra i wróć. Kolano nogi podporowej w linii ze stopą.','Wymaga bezbolesnego chodu i obciążania stopy.',true,''),
+ E('Przysiad do krzesła',3,'12–15','75 s','Usiądź powoli na stabilnym krześle i wstań, zachowując ciężar nad stopami.','Wykonuj tylko po dopuszczeniu obciążania stopy.',true,''),
+ E('Wall sit — siad przy ścianie',3,'30–45 s','60 s','Oprzyj plecy o ścianę, ugnij kolana do wygodnego kąta i oddychaj.','Obciąża stopę; wstrzymaj do oceny urazu.',true,''),
+ E('Wspięcia na palce',3,'12–15','60 s','Powoli unieś pięty i kontrolowanie opuść, w razie potrzeby trzymaj się stabilnego podparcia.','Nie wykonywać przy aktualnym bólu bocznej części stopy.',true,''),
+ E('Plank na przedramionach',3,'25–45 s','60 s','Łokcie pod barkami, tułów w linii, oddychaj i nie zapadaj się w lędźwiach.','Podparcie na palcach może prowokować ból stopy.',true,''),
+ E('Spięcia brzucha leżąc',3,'12–15','60 s','Delikatnie unieś górny odcinek pleców, bez szarpania głową i szyją.','Przerwij gdy zwiększa ból górnych pleców.'),
+ E('Unoszenie bioder jednonóż',3,'8–10 na nogę','75 s','Z pozycji leżącej unoś biodra, opierając jedną stopę, bez rotacji miednicy.','Duże obciążenie pojedynczej stopy — wyłącznie po ocenie urazu.',true,''),
+];
+for(const e of hardAdditions)catalog.set(e.name,e);
+const get=n=>{if(!catalog.has(n)) throw Error('Brak ćwiczenia: '+n);return {...catalog.get(n)}};
+// Każdy wariant to osobny zestaw; podobne wzorce powracają dla progresji.
+const extra=[
+ E('Wyciskanie na maszynie siedząc',2,'8–12','90 s','Ustaw siedzenie, prowadź uchwyty do przodu bez unoszenia barków.','Bez bólu pleców.'),
+ E('Wyciskanie hantli leżąc',2,'8–12','90 s','Łopatki oparte, hantle prowadź stabilnie i spokojnie.','Bez bólu barków.'),
+ E('Wyciskanie hantli siedząc z podparciem',2,'8–10','90 s','Trzymaj tułów przy oparciu, nie unoś barków.','Zrezygnuj, jeśli nasila napięcie szyi.'),
+ E('Wiosłowanie na wyciągu siedząc',2,'10–12','75 s','Przyciągnij uchwyt do tułowia bez zarzucania plecami.','Nie napinaj szyi.'),
+ E('Przysiad sumo z hantlem',3,'8–12','120 s','Stań szerzej, ugnij kolana zgodnie z kierunkiem stóp.','Wymaga pełnego powrotu do obciążania stopy.',true),
+ E('Step-up na stopień',3,'8 na nogę','90 s','Wejdź na stabilne podwyższenie kontrolując kolano.','Wymaga bezbolesnego obciążania stopy.',true),
+
+ E('Pompki przy ścianie',2,'10–15','60 s','Oprzyj dłonie o ścianę, ugnij i wyprostuj ramiona.','Wykonuj bez bolesnego nacisku na stopę.'),
+ E('Unoszenie wyprostowanej nogi leżąc',3,'10 na stronę','60 s','Połóż się na plecach, unieś prostą nogę bez szarpnięć.','Nie kontynuuj przy bólu biodra lub pleców.'),
+ E('Unoszenie kolan leżąc',3,'12','60 s','Przyciągaj kolana do klatki lekko unosząc miednicę.','Nie szarp szyi i pleców.'),
+ E('Przysiad z gumą',3,'10–15','90 s','Z gumą nad kolanami wykonaj kontrolowany przysiad.','Dopiero po dopuszczeniu do obciążania stopy.',true),
+ E('Monster walk z gumą',3,'12 kroków','60 s','W półprzysiadzie wykonuj krótkie kroki z oporem gumy.','Wstrzymaj przy bólu stopy.',true),
+ E('Wykrok boczny',3,'8 na nogę','90 s','Przenieś biodra w bok, drugą nogę utrzymuj wyprostowaną.','Dopiero po pełnym powrocie do obciążania.',true),
+ E('Przysiad z hantlami',3,'10','90 s','Stań stabilnie, wykonaj kontrolowany przysiad z hantlami.','Wstrzymaj przy bólu stopy.',true),
+ E('Uginanie nóg leżąc',3,'10–12','75 s','Ugnij kolana na maszynie bez odrywania bioder.','Poduszka nie może uciskać bolesnej stopy.'),
+ E('Pallof press w klęku',2,'10 na stronę','60 s','Z klęku wypychaj uchwyt przed siebie bez rotacji tułowia.','Tylko jeśli klęk nie nasila dolegliwości.'),
+ E('Mobilizacja koci grzbiet',2,'8','30 s','W klęku podpartym powoli zaokrąglaj i prostuj kręgosłup.','Nie opieraj bolesnych palców o podłoże.'),
+ E('Marching bridge',3,'8 na stronę','60 s','W pozycji mostka unoszenie jednej nogi wykonuj powoli.','Wymaga bezbolesnego podparcia na stopach.',true)
+];
+for (const e of extra) catalog.set(e.name,e);
+
+const revisedExercises=[
+ E('Unoszenie bioder ze sztangą na ławce',3,'8–12','90 s','Łopatki na ławce, stopy stabilnie; podnoś biodra pracą pośladków bez wyginania lędźwi.','Przy bólu stopy nie wykonuj; zaczynaj bez sztangi, gdy lekarz pozwoli.',true),
+ E('Unoszenie kolan na skos w zwisie',2,'6–10','75 s','Zwis na drążku, unoś kolana na skos spokojnie, bez bujania.','Zaawansowane dla barków i chwytu; przy bólu górnych pleców zamień na przyciąganie kolan leżąc.'),
+ E('Wypychanie nogami na suwnicy',3,'8–12','120 s','Plecy na oparciu, wypychaj platformę kontrolowanie bez blokowania kolan.','Nie wykonywać przy obecnym bólu stopy podczas chodzenia.',true),
+ E('Zginanie nóg na maszynie siedząc',3,'10–12','75 s','Ustaw wałek na dolnej łydce; ugnij kolana i powoli wróć.','Tylko bez ucisku bolesnego brzegu stopy.'),
+ E('Pallof press',2,'10 na stronę','60 s','Stabilna pozycja, wypchnij uchwyt przed siebie bez obrotu tułowia.','W pozycji stojącej dopiero po ustąpieniu bólu stopy.',true),
+ E('Goblet squat z kettlem lub hantlem',3,'8–10','120 s','Trzymaj ciężar blisko klatki, schodź w dół z kontrolą kolan i bioder.','Nie wykonywać przy bólu stopy podczas chodzenia.',true),
+ E('Wyciskanie na maszynie Hammer',2,'8–12','90 s','Oprzyj plecy, prowadź uchwyty spokojnie do przodu, barki swobodnie.','Nie wykonuj, jeśli nasila ból pleców lub barków.'),
+ E('Naprzemienne sięganie do kostek leżąc',2,'12–16','45 s','Leżąc, sięgaj naprzemiennie dłonią w stronę kostki, bez szarpania szyją.','Zmniejsz zakres przy bólu pleców.'),
+ E('Przyciąganie kolan do łokci na macie',2,'10–12','45 s','Leżąc na macie przyciągaj kolana do łokci spokojnie, nie odrywaj gwałtownie głowy.','Bez bólu pleców lub szyi.'),
+ E('Przyciąganie kolan do klatki na stojaku',2,'8–12','60 s','W podparciu na przedramionach unoś kolana do klatki, nie bujaj tułowiem.','Może nadmiernie obciążać barki; przy bólu wybierz wersję na macie.'),
+ E('Martwy ciąg na prostych nogach z hantlami',3,'8–10','120 s','Z lekko miękkimi kolanami cofaj biodra, utrzymuj hantle blisko nóg.','Tylko po ocenie urazu stopy; bez bólu pleców.',true),
+ E('Przysiad bułgarski — wersja pośladkowa',3,'8 na nogę','120 s','Przednia stopa na całej podeszwie, tułów lekko pochylony; pracuj powoli.','Tylko po bezbolesnym powrocie do obciążania stopy.',true),
+ E('W raise w leżeniu na brzuchu',2,'10–12','60 s','W leżeniu na brzuchu unoś ramiona układając litery W, bez zadzierania głowy.','Nie wymuszaj ruchu przy bólu górnych pleców.'),
+ E('Wiosłowanie hantlą w klęku na ławce',2,'10 na stronę','75 s','Oprzyj kolano i dłoń na ławce, prowadź hantel w stronę biodra.','Upewnij się, że pozycja nie obciąża bolesnej stopy.'),
+];
+for(const e of revisedExercises)catalog.set(e.name,e);
+
+for(const e of [
+ E('Przysiad przy ścianie',3,'10–12','75 s','Oprzyj plecy o ścianę, zsuń się do wygodnego zakresu i wróć bez szarpania.','Wymaga obciążania stóp: wykonywać dopiero po ocenie urazu.',true),
+ E('Frog hip thrust',3,'12–15','75 s','Leżąc na plecach z podeszwami stóp złączonymi, wypchnij biodra do góry bez przeprostu pleców.','Może wywoływać nacisk na stopę; wykonuj dopiero po dopuszczeniu obciążania.',true)
+])catalog.set(e.name,e);
+const groups=[
+ [
+ ['Nogi + brzuch',['Prostowanie nóg siedząc','Zginanie nóg na maszynie siedząc','Unoszenie bioder ze sztangą na ławce','Wiosłowanie hantlą w klęku na ławce','Dead bug','Unoszenie kolan na skos w zwisie']],
+ ['Uda + talia',['Wypychanie nogami na suwnicy','Odwodzenie nóg siedząc','Zginanie nóg na maszynie siedząc','Ściąganie drążka neutralnie','Deska boczna na kolanach','Pallof press']],
+ ['Pośladki + równowaga',['Goblet squat z kettlem lub hantlem','Glute bridge','Prostowanie nóg siedząc','Wyciskanie na maszynie Hammer','Bird dog','Naprzemienne sięganie do kostek leżąc']],
+ ['HARD · Uda i brzuch',['Wypychanie nogami na suwnicy','Prostowanie nóg siedząc','Zginanie nóg na maszynie siedząc','W raise w leżeniu na brzuchu','Unoszenie kolan na skos w zwisie','Deska boczna na kolanach']],
+ ['HARD · Pośladki',['Unoszenie bioder ze sztangą na ławce','Przysiad sumo z hantlem','Odwodzenie nóg siedząc','Ściąganie drążka neutralnie','Dead bug','Unoszenie kolan leżąc']],
+ ['HARD · Nogi w kontroli',['Goblet squat z kettlem lub hantlem','Wypychanie nogami na suwnicy','Zginanie nóg na maszynie siedząc','Wyciskanie hantli leżąc','Pallof press','Unoszenie kolan na skos w zwisie']]
+ ],
+ [
+ ['Biodra + talia',['Odwodzenie nóg siedząc','Glute bridge','Zginanie nóg na maszynie siedząc','Ściąganie drążka neutralnie','Deska boczna na kolanach','Naprzemienne sięganie do kostek leżąc']],
+ ['Uda + górne plecy',['Prostowanie nóg siedząc','Przysiad przy ścianie','Zginanie nóg na maszynie siedząc','Wiosłowanie z podparciem klatki','W raise w leżeniu na brzuchu','Spokojny oddech']],
+ ['Pośladki + brzuch',['Unoszenie bioder ze sztangą na ławce','Wypychanie nogami na suwnicy','Wiosłowanie na wyciągu siedząc','Wyciskanie na maszynie Hammer','Unoszenie kolan na skos w zwisie','Naprzemienne sięganie do kostek leżąc']],
+ ['HARD · Tył ud',['Zginanie nóg na maszynie siedząc','Unoszenie bioder ze sztangą na ławce','Martwy ciąg na prostych nogach z hantlami','Wyciskanie hantli leżąc','Dead bug','Pallof press']],
+ ['HARD · Uda + biodra',['Wypychanie nogami na suwnicy','Odwodzenie nóg siedząc','Prostowanie nóg siedząc','Ściąganie drążka neutralnie','Unoszenie kolan na skos w zwisie','Deska boczna na kolanach']],
+ ['HARD · Całe ciało',['Goblet squat z kettlem lub hantlem','Glute bridge','Zginanie nóg na maszynie siedząc','Wiosłowanie z podparciem klatki','Pallof press','Unoszenie kolan leżąc']]
+ ],
+ [
+ ['Dom · Mobilność',['Clamshell — muszla','Dead bug','Unoszenie nogi bokiem leżąc','Naprzemienne sięganie do kostek leżąc','Mobilizacja koci grzbiet','Spokojny oddech']],
+ ['Dom · Brzuch',['Przyciąganie kolan do łokci na macie','Deska boczna na kolanach','Bird dog','Unoszenie nogi bokiem leżąc','Naprzemienne sięganie do kostek leżąc','Pompki przy ścianie']],
+ ['Dom · Pośladki',['Glute bridge','Clamshell — muszla','Przyciąganie kolan do łokci na macie','Unoszenie nogi bokiem leżąc','Dead bug','Spokojny oddech']],
+ ['HARD · Nogi + brzuch',['Przysiad przy ścianie','Glute bridge','Unoszenie nogi bokiem leżąc','Przyciąganie kolan do łokci na macie','Deska boczna na kolanach','Pompki przy ścianie']],
+ ['HARD · Biodra + core',['Przysiad z gumą','Przyciąganie kolan do łokci na macie','Frog hip thrust','Bird dog','Unoszenie kolan leżąc','Naprzemienne sięganie do kostek leżąc']],
+ ['HARD · Kontrola ciała',['Goblet squat z kettlem lub hantlem','Frog hip thrust','Unoszenie nogi bokiem leżąc','Dead bug','Deska boczna na kolanach','Mobilizacja koci grzbiet']]
+ ]
+];
+const plans=groups.flatMap((group,d)=>group.map(([label,names],v)=>({
+ name:['Dzień 1','Dzień 2','Dom!'][d]+' · '+(v>=3?'HARD '+(v-2):String.fromCharCode(65+v)),
+ sub:label+' · '+(d===2?'DOM':'SIŁOWNIA')+' · '+(d===2?'25–45':'50–70')+' min',
+ hard:v>=3,tip:'Zapisuj postępy. Wybierz jeden wariant na sesję i powtarzaj go przez kilka tygodni.',
+ ex:names.map(get)
+})));
+const cdn='https://static.fabrykasily.pl/';
+const media={
+ 'Unoszenie nogi bokiem leżąc':['https://static.fabrykasily.pl/atlas-kobiet/k_odwodzenie_nogi_w_lezeniu_bokiem.mp4'],
+ 'Clamshell — muszla':['https://static.fabrykasily.pl/atlas-kobiet/k_odwodzenie_nogi_w_lezeniu_bokiem.mp4'],
+ 'Przysiad z gumą':['https://static.fabrykasily.pl/atlas-kobiet/video-przysiad-z-guma.mp4'],
+ 'Przysiad przy ścianie':['https://static.fabrykasily.pl/atlas-kobiet/video-przysiad-przy-scianie.mp4'],
+ 'Frog hip thrust':['https://static.fabrykasily.pl/atlas-kobiet/video-frog-hip-thrust.mp4'],
+ 'Unoszenie nogi w klęku podpartym':['https://static.fabrykasily.pl/atlas-kobiet/video-unoszenie-nogi-w-kleku-podpartym.mp4'],
+ 'Unoszenie bioder w leżeniu na plecach':['https://static.fabrykasily.pl/atlas-kobiet/video-frog-hip-thrust.mp4'],
+ 'Dead bug':['atlas-kobiet/video-dead-bug-nogi-ugiete.mp4'],
+ 'Prostowanie nóg siedząc':['atlas-kobiet/video-wyprosty-kolan-na-maszynie-siedzac.mp4'],
+ 'Zginanie nóg na maszynie siedząc':['atlas-kobiet/video-zginanie-nog-na-maszynie.mp4'],
+ 'Wypychanie nogami na suwnicy':['https://static.fabrykasily.pl/atlas-kobiet/video-wypychanie-nogami-suwnicy.mp4'],
+ 'Unoszenie bioder ze sztangą na ławce':['https://static.fabrykasily.pl/atlas-kobiet/video-unoszenie-bioder-ze-sztanga-w-oparciu-o-laweczke.mp4'],
+ 'Deska boczna na kolanach':['https://static.fabrykasily.pl/atlas-kobiet/k_deska_bokiem_na_kolanach.mp4'],
+ 'Pallof press':['https://static.fabrykasily.pl/atlas-kobiet/video-paloff-press.mp4'],
+ 'Goblet squat z kettlem lub hantlem':['https://static.fabrykasily.pl/atlas-kobiet/video-goblet-squat.mp4'],
+ 'Naprzemienne sięganie do kostek leżąc':['atlas-kobiet/video-naprzemienne-sieganie-do-kostek-lezac.mp4'],
+ 'Unoszenie kolan na skos w zwisie':['https://static.fabrykasily.pl/atlas-kobiet/k_unoszenie_kolan_na_skos_w_zwisie_na_drazku.mp4'],
+ 'Wyciskanie na maszynie Hammer':['https://static.fabrykasily.pl/atlas-kobiet/video-wyciskanie-na-maszynie-na-klatke.mp4'],
+ 'Martwy ciąg na prostych nogach z hantlami':['atlas-kobiet/video-martwy-ciag-na-prostych-nogach-z-hantlami.mp4'],
+ 'Przysiad bułgarski — wersja pośladkowa':['atlas-kobiet/video-przysiad-bulgarski-wersja-posladkowa.mp4'],
+ 'W raise w leżeniu na brzuchu':['atlas-kobiet/video-w-raise-wznosy-ramion-z-przyciaganiem-w-lezeniu-na-brzuchu.mp4'],
+ 'Wiosłowanie hantlą w klęku na ławce':['atlas-kobiet/video-wioslowanie-hantla-w-kleku-podpartym-na-laweczce.mp4'],
+ 'Przyciąganie kolan do łokci na macie':['atlas-kobiet/video-przyciaganie-kolan-do-lokci-lezac-na-macie.mp4'],
+ 'Przyciąganie kolan do klatki na stojaku':['atlas-kobiet/video-przyciaganie-kolan-do-klatki-na-stojaku.mp4'],
+ 'Bird dog':['atlas-kobiet/video-naprzemienne-wznosy-reki-i-nogi-w-podporze-przodem.mp4'],
+ 'Glute bridge':['atlas-kobiet/video-unoszenie-bioder-w-gore.mp4'],
+ 'Odwodzenie nóg siedząc':['atlas-kobiet/video-odwodzenie-nog-na-maszynie.mp4'],
+ 'Ściąganie drążka neutralnie':['atlas-kobiet/video-sciaganie-chwytem-neutralnym-z-wyciagu-gornego.mp4'],
+};
+// Potencjalne ścieżki MP4 są testowane przez odtwarzacz; strony atlasu nie są wideo.
+const sourcePages={"Unoszenie bioder ze sztangą na ławce":"https://www.fabrykasily.pl/cwiczenia/dla-kobiet/na-nogi/unoszenie-bioder-ze-sztanga-w-oparciu-o-laweczke-plaska","Unoszenie kolan na skos w zwisie":"https://www.fabrykasily.pl/atlas-cwiczen/cwiczenia-dla-kobiet/brzuch/unoszenie-kolan-na-skos-w-zwisie-na-drazku","Wypychanie nogami na suwnicy":"https://www.fabrykasily.pl/atlas-cwiczen/cwiczenia-dla-kobiet/nogi/wypychanie-nogami-na-suwnicy","Zginanie nóg na maszynie siedząc":"https://www.fabrykasily.pl/cwiczenia/dla-kobiet/na-nogi/zginanie-nog-na-maszynie-siedzac","Deska boczna na kolanach":"https://www.fabrykasily.pl/atlas-cwiczen/cwiczenia-dla-kobiet/brzuch/deska-bokiem-na-kolanach","Pallof press":"https://www.fabrykasily.pl/atlas-cwiczen/cwiczenia-dla-kobiet/brzuch/pallof-press","Goblet squat z kettlem lub hantlem":"https://www.fabrykasily.pl/cwiczenia/dla-kobiet/na-nogi/goblet-squat-przysiad-z-kettlem-lub-hantelka","Wyciskanie na maszynie Hammer":"https://www.fabrykasily.pl/atlas-cwiczen/cwiczenia-dla-kobiet/klatka-piersiowa/wyciskanie-na-maszynie-hammer","Naprzemienne sięganie do kostek leżąc":"https://www.fabrykasily.pl/cwiczenia/dla-kobiet/na-brzuch/naprzemienne-sieganie-do-kostek-lezac","Przyciąganie kolan do łokci na macie":"https://www.fabrykasily.pl/cwiczenia/dla-kobiet/na-brzuch/przyciaganie-kolan-do-lokci-lezac-na-macie","Przyciąganie kolan do klatki na stojaku":"https://www.fabrykasily.pl/atlas-cwiczen/cwiczenia-dla-kobiet/brzuch/przyciaganie-kolan-do-klatki-na-stojaku","Martwy ciąg na prostych nogach z hantlami":"https://www.fabrykasily.pl/cwiczenia/dla-kobiet/na-nogi/martwy-ciag-na-prostych-nogach-z-hantlami","Przysiad bułgarski — wersja pośladkowa":"https://www.fabrykasily.pl/atlas-cwiczen/cwiczenia-dla-kobiet/nogi/przysiad-bulgarski-wersja-posladkowa","W raise w leżeniu na brzuchu":"https://www.fabrykasily.pl/atlas-cwiczen/cwiczenia-dla-kobiet/ogolne/w-raise-wznosy-ramion-z-przyciaganiem-w-lezeniu-na-brzuchu","Wiosłowanie hantlą w klęku na ławce":"https://www.fabrykasily.pl/cwiczenia/dla-kobiet/na-plecy/wioslowanie-hantla-w-kleku-podpartym-na-laweczce"};
+const videoMarkup=(name,j)=>{const sources=media[name]||[];
+ if(!sources.length)return `<div class="video-missing">Brak nagrania</div>`;
+ return `<div class="video-preview preview-mp4" hidden data-media-name="${encodeURIComponent(name)}" id="preview-${j}"><video playsinline muted loop autoplay preload="metadata" aria-label="${name}"></video></div>`;
+};
+const attachVideos=()=>{document.querySelectorAll('.preview-mp4').forEach(box=>{const name=decodeURIComponent(box.dataset.mediaName),urls=media[name]||[],v=box.querySelector('video');if(!v)return;
+ let i=0;
+ const next=()=>{box.hidden=true;if(i>=urls.length){v.removeAttribute('src');box.hidden=false;box.innerHTML='<div class="video-missing">Brak dostępnego nagrania</div>';return;}v.src=urls[i].startsWith("https://")?urls[i++]:cdn+urls[i++];v.load();};
+ v.addEventListener('error',next);
+ v.addEventListener('loadeddata',()=>{box.hidden=false;v.play().catch(()=>{v.controls=true})});
+ next();
+ });};
+
+let current=0;let cleared=localStorage.getItem('forma_clearance')==='1';const clearance=document.getElementById('clearance');clearance.checked=cleared;clearance.addEventListener('change',()=>{cleared=clearance.checked;localStorage.setItem('forma_clearance',cleared?'1':'0');render()});
+function escapeHtml(s){return String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('\"','&quot;').replaceAll('>','&gt;')}
+function render(){const group=Math.floor(current/6), v=current%6;
+document.getElementById('tabs').innerHTML=['Dzień 1','Dzień 2','Dom!'].map((n,i)=>`<button class="tab ${group===i?'active':''}" data-tab="${i}" aria-pressed="${group===i}"><strong>${n}</strong><span>${i===2?'DOM':'SIŁOWNIA'} · 6 WERSJI</span></button>`).join('');document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{current=6*(+b.dataset.tab);render()});
+document.getElementById('variants').innerHTML=['Wariant A','Wariant B','Wariant C','HARD 1','HARD 2','HARD 3'].map((n,i)=>`<button class="btn ${i>=3?'hard':''} ${v===i?'primary':''}" data-variant="${i}" aria-pressed="${v===i}">${n}</button>`).join('');document.querySelectorAll('[data-variant]').forEach(b=>b.onclick=()=>{current=6*group+(+b.dataset.variant);render()});
+const p=plans[current];
+document.getElementById('name').textContent=p.name;
+document.getElementById('subtitle').textContent=p.sub;
+document.getElementById('exercise-list').innerHTML=p.ex.map((e,j)=>{
+ const locked=e.blocked&&!cleared;
+ const liked=localStorage.getItem('forma_liked_'+e.name)==='1';
+ return `<article class="exercise ${locked?'disabled':''}">
+ <div class="ex-top"><div class="number">${String(j+1).padStart(2,'0')}</div><div>
+ ${p.hard?'<div class="hard-label">HARD</div>':''}
+ <div class="ex-title">${e.name}</div>
+ <button type="button" class="like ${liked?'selected':''}" data-like="${encodeURIComponent(e.name)}" aria-pressed="${liked}">${liked?'♥ Lubię':'♡ Lubię'}</button>
+ <div class="meta">${e.sets} × ${e.reps} · przerwa ${e.rest}</div>
+ ${locked?`<div class="danger">🔒 Wstrzymane — stopa wymaga oceny</div><div class="subtext">${e.alternative}</div>`:''}
+ </div></div>
+ ${videoMarkup(e.name,j)}
+ <details><summary>Jak wykonać? · wskazówki techniczne</summary><p><b>Technika:</b> ${e.how}</p><p><b>Uwaga:</b> ${e.avoid}</p></details>
+ </article>`
+}).join('');
+document.getElementById('tip').innerHTML='<b>Wskazówka:</b> '+p.tip;
+document.querySelectorAll('[data-like]').forEach(btn=>btn.onclick=()=>{
+ const n=decodeURIComponent(btn.dataset.like);
+ localStorage.setItem('forma_liked_'+n,localStorage.getItem('forma_liked_'+n)==='1'?'0':'1');render();
+});
+attachVideos();
+};
+document.getElementById('random').onclick=()=>{const group=Math.floor(current/6);const candidates=[0,1,2,3,4,5].filter(n=>n!==current%6);current=6*group+candidates[Math.floor(Math.random()*candidates.length)];render();document.querySelector('.tabs').scrollIntoView({behavior:'smooth',block:'start'})};
+render();</script></body></html>
